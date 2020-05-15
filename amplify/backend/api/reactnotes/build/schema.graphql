@@ -3,6 +3,8 @@ type Note {
   name: String!
   description: String
   status: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
 }
 
 enum ModelSortDirection {
