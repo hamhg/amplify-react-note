@@ -1,0 +1,12 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "reactnotes",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authreactnotescognitoauth",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-react-notes-reactnote-155926-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/54d2b2537030b6cd98ce8a503fc681c5c1b7288b"
+}

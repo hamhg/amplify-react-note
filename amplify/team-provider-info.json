@@ -1,0 +1,20 @@
+{
+    "reactnote": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-react-notes-reactnote-155926-authRole",
+            "UnauthRoleArn": "arn:aws:iam::628182373468:role/amplify-react-notes-reactnote-155926-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::628182373468:role/amplify-react-notes-reactnote-155926-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "amplify-react-notes-reactnote-155926-deployment",
+            "UnauthRoleName": "amplify-react-notes-reactnote-155926-unauthRole",
+            "StackName": "amplify-react-notes-reactnote-155926",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:628182373468:stack/amplify-react-notes-reactnote-155926/9dde6b30-9679-11ea-a97c-021bedb581f0",
+            "AmplifyAppId": "d25fb18g0zhhui"
+        },
+        "categories": {
+            "auth": {
+                "reactnotescognitoauth": {}
+            }
+        }
+    }
+}
