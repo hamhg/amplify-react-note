@@ -152,33 +152,6 @@
 				}
 			}
 		},
-		"analyticsreactnotes": {
-			"Type": "AWS::CloudFormation::Stack",
-			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-react-notes-reactnote-155926-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
-				"Parameters": {
-					"appName": "reactnotes",
-					"roleName": "pinpointLambdaRoleda8c3f26",
-					"cloudWatchPolicyName": "cloudWatchPolicyda8c3f26",
-					"pinpointPolicyName": "pinpointPolicyda8c3f26",
-					"authPolicyName": "pinpoint_amplify_da8c3f26",
-					"unauthPolicyName": "pinpoint_amplify_da8c3f26",
-					"authRoleName": {
-						"Ref": "AuthRoleName"
-					},
-					"unauthRoleName": {
-						"Ref": "UnauthRoleName"
-					},
-					"authRoleArn": {
-						"Fn::GetAtt": [
-							"AuthRole",
-							"Arn"
-						]
-					},
-					"env": "reactnote"
-				}
-			}
-		},
 		"UpdateRolesWithIDPFunction": {
 			"DependsOn": [
 				"AuthRole",
